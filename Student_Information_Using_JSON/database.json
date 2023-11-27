@@ -1,0 +1,15 @@
+{
+    "Students" : 
+    [ 
+    {
+    "name" : "Mark Kenneth Ritualo",
+    "age" : 20,
+    "id" : 222030
+    }, 
+    {
+    "name" : "Markon Cenez Ritual",
+    "age" : 20,
+    "id" : 222050
+    }
+    ]
+}
