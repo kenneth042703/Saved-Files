@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(97, 96, 95);
+    margin-bottom: 300px;
+}
+*{
+    color:rgb(0, 0, 0);
+}
+#paragraph{
+    box-shadow: 0px 0px 15  0px rgb(255, 255, 247);
+    text-align: center;
+    border-radius: 0px;
+    opacity: 0;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    padding: 100px;
+    background-image: linear-gradient(to right, rgb(77, 190, 62), white, rgb(212, 64, 64));
+    width: 400px;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+}
+
+pre:hover{
+    font-size: 23px;
+    opacity: 1;
+    width: 300px;
+    background-image: linear-gradient(to right, rgba(250, 235, 215, 1), rgba(255, 0, 0, 0));
+}
+pre{
+    top: 20px;
+    position: relative;
+    border-radius: 30px;
+    margin: 0;
+    padding: 50px;
+    width: 500px;
+    height:auto;
+    background-image: linear-gradient(to right, rgba(250, 235, 215, 1), rgba(255, 255, 255, 1));
+    opacity: 0.2;
+    transition:  0.3s ease-out 10ms;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+#title{
+    font-size: 50px;
+}
