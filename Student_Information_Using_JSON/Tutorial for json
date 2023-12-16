@@ -1,1 +1,0 @@
-import collection from './database.json' assert {type : 'json'}; --- Open JSON file
