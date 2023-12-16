@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background: black;
+    overflow: hidden;
+}
+.container{
+    position: relative;
+}
+.slides{
+    position: relative;
+    background-color: rgb(51, 51, 51);
+    min-height: 100vh;
+    display: flex;
+    opacity: 1;
+    justify-content: space-around;
+    transition:  0.5s ease-in 10ms;
+}
+.slides:nth-child(2){
+    background: rgb(131, 131, 131);
+}
+
+h1{
+    position: relative;
+    left: 0px;
+    align-self: center;
+    animation: 0.6s biggy alternate infinite;
+}
+@keyframes biggy {
+    0%{
+        transform: rotate(10deg);
+        font-size: 50px;
+    }
+    100%{
+        text-shadow: 20px 20px 10px rgba(0, 0, 0, 0.5);
+        font-size: 100px;
+    }
+}
+#nav{
+    opacity: 0;
+    top:0px;
+    position: sticky;
+    background-color: rgb(26, 26, 26);
+    width: auto;
+    height: 50px;
+    z-index: 1;
+    transition: 0.3s  ease-in;
+}
+#nav:hover{
+    opacity: 1;
+    transition: 0.3s ease-in;
+}
+ul{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    font-weight: bold;
+    color: rgb(138, 85, 85);
+    font-size: 15px;
+    text-decoration: none;
+    align-self: center;
+}
